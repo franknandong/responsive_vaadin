@@ -1,0 +1,2 @@
+# Module com.fndong.ui.widgetset.Responsive_vaadinWidgetset
+# RPC service class, partial path of RPC policy file

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="UTF-8" name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;mytheme&quot;}">
+  <meta charset="UTF-8" name="package-mapping" content="x:com.fndong.ui">
+ </head> 
+ <body> 
+  <vaadin-vertical-layout style-name="root-layout" responsive id="root-layout" width="1440px" _id="root_layout"> 
+   <vaadin-css-layout style-name="top" width="1440px" height="80px" _id="top_area"> 
+    <vaadin-label width="79px" plain-text _id="lblheader">
+      My Layout Header 
+    </vaadin-label> 
+   </vaadin-css-layout> 
+   <vaadin-horizontal-layout style-name="sidebar_contain" size-full _id="sidebar_contain" :expand> 
+    <vaadin-css-layout style-name="menu" width="160px" height-full _id="side_menu"> 
+     <vaadin-button style-name="v-button" plain-text _id="btnMenu1">
+       Menu 1 
+     </vaadin-button> 
+     <vaadin-button style-name="v-button" plain-text _id="btnMenu2">
+       Menu 2 
+     </vaadin-button> 
+     <vaadin-button style-name="v-button" plain-text _id="btnMenu3">
+       Menu 3 
+     </vaadin-button> 
+    </vaadin-css-layout> 
+    <vaadin-vertical-layout style-name="content-area" size-full _id="content_area" :expand> 
+     <vaadin-label style-name="h2" size-auto plain-text>
+       Lorem Ipsum 
+     </vaadin-label> 
+     <vaadin-label plain-text _id="lbl_paragraph"></vaadin-label> 
+     <vaadin-form-layout style-name="form" width="100px" _id="form_layout"> 
+      <vaadin-text-field caption="Name : " style-name="textfield" _id="txtname"></vaadin-text-field> 
+      <vaadin-text-field caption="Last Name : " style-name="textfield" _id="txtlastname"></vaadin-text-field> 
+      <vaadin-text-field caption="Email" style-name="textfield" _id="txtEmail"></vaadin-text-field> 
+      <vaadin-button plain-text _id="btnSubmit">
+        Submit 
+      </vaadin-button> 
+     </vaadin-form-layout> 
+    </vaadin-vertical-layout> 
+   </vaadin-horizontal-layout> 
+  </vaadin-vertical-layout>  
+ </body>
+</html>
